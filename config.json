@@ -25,7 +25,7 @@
                       "dest":3002
                   },
                   {
-                      "path":"/jacob",
+                      "path":"/jacob-vm",
                       "dest":3003
                   },
                   {
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/jacob"
+                  "path":"/jacob-vm"
               }
           },
           "sniffing":{
