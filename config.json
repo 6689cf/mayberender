@@ -25,11 +25,11 @@
                       "dest":3002
                   },
                   {
-                      "path":"/render",
+                      "path":"/jacob",
                       "dest":3003
                   },
                   {
-                      "path":"/trojan",
+                      "path":"/jacob",
                       "dest":3004
                   },
                   {
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/render"
+                  "path":"/jacob"
               }
           },
           "sniffing":{
@@ -125,7 +125,7 @@
           "settings":{
               "clients":[
                   {
-                      "password":"ffffffff-ffff-ffff-ffff-ffffffffffff"
+                      "password":"jacob777"
                   }
               ]
           },
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/trojan"
+                  "path":"/jacob"
               }
           },
           "sniffing":{
@@ -154,7 +154,7 @@
               "clients":[
                   {
                       "method":"chacha20-ietf-poly1305",
-                      "password":"ffffffff-ffff-ffff-ffff-ffffffffffff"
+                      "password":"jacob777"
                   }
               ],
               "decryption":"none"
